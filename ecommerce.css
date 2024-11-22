@@ -1,0 +1,31 @@
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Your flexbox container properties */
+    }
+    .product-card {
+        width: 300px;
+        padding: 20px;
+    /* Box model properties */
+    box-sizing: border-box;
+    /* Add your properties */
+    }
+    .product-image {
+    /* Image container properties */
+    }
+    .product-info {
+    /* Flex properties for internal layout */
+    }
+    .buy-button {
+        background-color: green;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    /* Button styling with box model considerations */
+    }
+
+    img {
+        border: 2px solid;
+    }
+    
